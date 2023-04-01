@@ -1,0 +1,2 @@
+第36行加入了no-pie：
+gcc -no-pie -Wl,--wrap,getchar -m64 $TESTCASEDIR/${tfileName}.s runtime.c -o test.out &>/dev/null
